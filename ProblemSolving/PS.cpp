@@ -3,22 +3,14 @@
 
 int main()
 {
-    int A, B, C, D;
-    char S, Q;
-    
-    std::cin >> A >> S >> B >> Q >> C;
+    int a, b, c, d;
 
-    if(S == '+')
-        D = A + B;
-    else if (S == '-')
-        D = A - B;
-    else if (S == '*')
-        D = A * B;
+    std::cin >> a >> b >> c >> d;
 
-    if (C == D)
-        std::cout << "Yes";
-    else
-        std::cout << D;
+    if(a > c && a < d && a < b)
+    {
+        
+    }
 
     return 0;
 }

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/dell/Desktop/Diploma/ProblemSolving",
-      "program": "c:/Users/dell/Desktop/Diploma/ProblemSolving/build/Debug/outDebug",
+      "cwd": "c:/Users/dell/Desktop/Diploma/C++/ProblemSolving",
+      "program": "c:/Users/dell/Desktop/Diploma/C++/ProblemSolving/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
