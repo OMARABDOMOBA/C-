@@ -1,2 +1,2 @@
-# C-
+# C++
 Embedded C++
