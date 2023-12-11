@@ -26,10 +26,10 @@ int main()
   ### Indicators of Success:
   Write clean and efficient C++ code, demonstrate understanding of resource constraints, and apply features like constexpr and static_assert.
 
-## study subjects
+## Study subjects
   - ### Software
     - Programming languages (basic and advanced subjects), like C/C++
-        - We will talk about modern C++
+        - In this repository we will talk about modern C++
     - Object-oriented programming (OOP) concepts
     - Data Structure
     - Algorithms
@@ -49,6 +49,11 @@ int main()
     - Datasheet reading
     - PCB Design
 
+    ### RTOS (Real Time Operating System)
+    -
+
+## Way to Become a C++ Developer
+![C-Tutorial](https://github.com/OMARABDOMOBA/E_Diploma/assets/150018810/6cc283b7-33fa-4977-b12e-3f0d8a9798a1)
 ## General Content
 Here I'll put some content that are useful, not only for studying but also implementing and practicing in real life projects.
 
