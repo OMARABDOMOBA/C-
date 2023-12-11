@@ -9,7 +9,7 @@ I plan to compile and elucidate a comprehensive set of topics within this reposi
 
 int main()
 {
-  std::cout << "Hello, World!" << std::endl;
+  std::cout << "Welcome ro C++!" << std::endl;
   return 0;
 }
 ```
