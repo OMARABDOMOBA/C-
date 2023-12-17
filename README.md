@@ -55,4 +55,19 @@ int main()
 ![C-Tutorial](https://github.com/OMARABDOMOBA/E_Diploma/assets/150018810/6cc283b7-33fa-4977-b12e-3f0d8a9798a1)
 ## General Content
 Here I'll put some content that are useful, not only for studying but also implementing and practicing in real life projects.
-
+### Resources
+- ### C++(from basics to advanced)
+  - https://www.youtube.com/playlist?list=PLCInYL3l2AajFAiw4s1U4QbGszcQ-rAb3 (Arabic)
+  - https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+  - OOP(Object Orinted Programming) : https://www.youtube.com/watch?v=YMXUxKDziaA&list=PLCInYL3l2Aaiq1oLvi9TlWtArJyAuCVow (Arabic)
+  - Data Structure:
+    - https://www.youtube.com/watch?v=owCqVRbZlbg&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&pp=iAQB (Arabic)
+    - https://www.udemy.com/course/datastructurescncpp/
+    - With C : https://www.youtube.com/playlist?list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y
+  - Algorithms:
+    - https://www.youtube.com/watch?v=McifeJjrvpI&list=PLwCMLs3sjOY6KH-8c9F-lMWn-r02hyoV_ (Arabic)
+    - https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O (Awesome)
+  - STL(Standard Tempelate Library) :
+    - https://www.youtube.com/playlist?list=PLCInYL3l2AainAE4Xq2kdNGDfG0bys2xp (Arabic)
+    - https://www.youtube.com/watch?v=BKBXM7ypQG0&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG
+  - 
