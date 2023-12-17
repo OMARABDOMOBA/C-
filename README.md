@@ -67,7 +67,17 @@ Here I'll put some content that are useful, not only for studying but also imple
   - Algorithms:
     - https://www.youtube.com/watch?v=McifeJjrvpI&list=PLwCMLs3sjOY6KH-8c9F-lMWn-r02hyoV_ (Arabic)
     - https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O (Awesome)
+    - https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY (MIT)
   - STL(Standard Tempelate Library) :
     - https://www.youtube.com/playlist?list=PLCInYL3l2AainAE4Xq2kdNGDfG0bys2xp (Arabic)
     - https://www.youtube.com/watch?v=BKBXM7ypQG0&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG
-  - 
+  - Smart Pointers:
+    - https://www.youtube.com/watch?v=wUzn0HljjRE&list=PLk6CEY9XxSIAI2K-sxrKzzSyT6UZR5ObP
+    - https://www.youtube.com/watch?v=e2LMAgoqY_k
+  - Move semantics :
+    - https://www.youtube.com/watch?v=pDn1_kt3cUU&list=PL1w8k37X_6L9rEAUbIlo1UStYBfdzUmAR
+    - https://www.youtube.com/watch?v=IOkgBrXCtfo&list=PLwpblA__hrEYvlpf-tUjjUFkRkEpOor7e
+  - Concurrency:
+    - https://www.youtube.com/watch?v=TPVH_coGAQs&list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp
+    - https://www.youtube.com/watch?v=xPqnoB2hjjA&t=11s
+    - https://www.youtube.com/watch?v=Fn0xBsmact4&list=PLvv0ScY6vfd_ocTP2ZLicgqKnvq50OCXM
