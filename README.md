@@ -33,6 +33,7 @@ int main()
     - Object-oriented programming (OOP) concepts
     - Data Structure
     - Algorithms
+    - Build Tools(Make, CMake)
     - Bare-metal programming
     - RTOS Knowledge (Real-time operating systems)
     - Bits manipulation
@@ -49,8 +50,6 @@ int main()
     - Datasheet reading
     - PCB Design
 
-    ### RTOS (Real Time Operating System)
-    -
 
 ## Way to Become a C++ Developer
 ![C-Tutorial](https://github.com/OMARABDOMOBA/E_Diploma/assets/150018810/6cc283b7-33fa-4977-b12e-3f0d8a9798a1)
