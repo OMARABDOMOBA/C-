@@ -1,0 +1,3 @@
+/home/roboticscorner/C++/project/cmake/build/executable/hellobinary
+/home/roboticscorner/C++/project/cmake/build/includes/wifi.hpp
+/home/roboticscorner/C++/project/cmake/build/includes/calc.hpp

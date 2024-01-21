@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roboticscorner/C++/project/cmake/lib/wifi.cpp
+iostream
+-
+wifi.hpp
+/home/roboticscorner/C++/project/cmake/lib/wifi.hpp
+
+/home/roboticscorner/C++/project/cmake/lib/wifi.hpp
+
