@@ -1,24 +1,28 @@
 #include <iostream>
 
+// Stack
+
 const int MAX_SIZE = 100;
 
-template <class T>
+template<typename T>
 class Stack
 {
     private:
         int top;
         T item[MAX_SIZE];
+    
     public:
         //Constructor
         Stack() : top(-1)
         {}
-        
-        //pushing the element
+
+        //Methods
+        // Push
         void push(T element)
         {
-            if( top >= MAX_SIZE)
+            if(top >= MAX_SIZE)
             {
-                std::cout << "Stack is full";
+                std::cout << "Stack is full" << std::endl;
             }
             else
             {
@@ -27,52 +31,42 @@ class Stack
             }
         }
 
-        bool is_empty()
+        //empty
+        bool empty()
         {
             return top < 0;
         }
 
+        //pop
         void pop()
         {
-            if(!is_empty())
+            if(!empty())
             {
                 top--;
             }
             else
-                std::cout << "Stack is empty";
+                std::cout << "Stack is empty" << std::endl;
         }
 
-        void popElement(T Element)
+        void getTop(T &stackTop)
         {
-            if(!is_empty())
+            if(!empty())
             {
-                item[top] = Element;
-                top--;
+                stackTop = item[top];
+                std::cout << stackTop << std::endl;
             }
             else
-                std::cout << "Stack is empty";
+                std::cout << "Stack is empty" << std::endl;
         }
-
-        void getTop()
-        {
-            if(!is_empty())
-            {
-                std::cout << item[top] << std::endl;
-            }
-            else
-                std::cout << "Stack is Empty";
-        }
-
 
         void print()
         {
-            std::cout << "[";
-
-            for(int i = top; i >= 0; i--)
+            std::cout << "[ ";
+            for(auto i = top; i >= 0; i--)
             {
                 std::cout << item[i] << ", ";
             }
-            std::cout << "]";
+            std::cout << " ]";
             std::cout << "\n";
         }
 };
@@ -80,27 +74,37 @@ class Stack
 int main()
 {
     Stack<int> arr;
-    
-    arr.push(5);
-    arr.push(6);
-    arr.push(7);
+
+    arr.push(10);
+    arr.push(20);
+    arr.push(30);
+    arr.push(40);
+    arr.push(50);
+
     arr.pop();
-    arr.push(9);
     arr.print();
 
-    std::string name;
-    std::cout << "Enter name : ";
-    std::cin >> name;
+    int item = 0;
 
-    Stack<std::string> arr2;
-    arr2.push(name);
-    arr2.push("Eslam");
-    arr2.push("Dr");
-    arr2.push("Yousef");
-    arr2.push("Abd El-Rahman");
+    arr.getTop(item);
 
-    arr2.pop();
-    arr2.print();
+    std::cout << arr.empty() << std::endl;
+
+    Stack<std::string> str;
+
+    str.push("omar");
+    str.push("abdo");
+    str.push("karem");
+
+    str.print();
+    str.pop();
+    str.print();
+
+    std::string item1 = "";
+
+    str.getTop(item1);
+
+    std::cout << str.empty() << std::endl;
 
     return 0;
 }

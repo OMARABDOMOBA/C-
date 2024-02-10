@@ -60,5 +60,6 @@
         "forward_list": "cpp",
         "list": "cpp",
         "unordered_set": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/roboticscorner/C++/E_Diploma/C++_course/project/Cmake_packaging"
 }
