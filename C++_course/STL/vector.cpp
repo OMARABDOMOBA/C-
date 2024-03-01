@@ -4,32 +4,44 @@
 
 int main() {
     // Creating a vector of integers
-    std::vector<int> myVector = {1, 4, 2, 6, 35, 23, 7};
+    std::vector<int> myVector = {1 , 4, 2, 7, 35, 23};
     std::vector<int> vec(6);
 
     myVector.push_back(6);
     myVector.push_back(8);
 
+    // auto it = std::find(myVector.begin(), myVector.end(), 45);
+    // std::cout << *it << std::endl;
 
-    // Accessing elements using range-based for loop
-    std::cout << "Vector Elements: ";
-    for (const auto& element : myVector) {
-        std::cout << element << " ";
-    }
+    auto rv = [](int i){return i > 7;};
 
-    std::cout << std::endl;
+    auto it = std::find_if(myVector.begin(), myVector.end(), rv);
 
-    std::cout << myVector.at(1) << std::endl;
-
-    auto it = std::find(myVector.begin(), myVector.end(), 6);
     std::cout << *it << std::endl;
+
+    for(; it != myVector.end(); it++)
+    {
+        std::cout << *it << std::endl;
+    }
 
     std::sort(myVector.begin(), myVector.end());
 
-    std::cout << "Vector Elements: ";
-    for (const auto& element : myVector) {
-        std::cout << element << " ";
-    }
+    std::vector<int> v(100);
+    v.push_back(10);
+
+    // std::cout << "Vector Elements: ";
+    // for (const auto& element : myVector) {
+    //     std::cout << element << " ";
+    // }
+
+    /*
+    add_back = O(1)
+    delete_back = O(1)
+    add anywhere O(n)
+    delete O(n)
+    access --> [], at() --> O(1)
+    search --> find()--> (logn);
+    */
 
     return 0;
 }

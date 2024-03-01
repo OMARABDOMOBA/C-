@@ -2,30 +2,21 @@
 #include <list>
 #include <algorithm>
 
-using namespace std;
+// using namespace std;
 
 int main() {
     // Creating a list of integers
-    std::list<int> myList = {2, 4, 1, 7, 5};
+    std::list<std::string>  employeeList = {"Omar", "Abd El-Rahman", "Abd El-Kareem", "Ahmed", "Mohammed", "Menna", "Donia"};
 
-    myList.push_back(6);
-    myList.push_front(0);
+    std::list<std::string>  list;
 
-    std::list<int> list = std::move(myList);
+    employeeList.swap(list);
 
-    // Accessing elements using range-based for loop
-    std::cout << "List Elements: ";
-    for (const auto& element : myList) {
-        std::cout << element << " ";
-    }
-
-    std::cout << std::endl;
-
-    myList.sort();
+    list.sort(std::less<std::string>());
 
     std::cout << "List Elements: ";
-    for (const auto& element : myList) {
-        std::cout << element << " ";
+    for (const auto& name : list) {
+        std::cout << name << std::endl;
     }
 
     return 0;

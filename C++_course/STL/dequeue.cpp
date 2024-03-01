@@ -1,23 +1,35 @@
 #include <iostream>
 #include <deque>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
 int main() {
-    // Creating a deque of integers
-    std::deque<int> myDeque = {1, 2, 3, 4, 5};
+    vector<int> d;
 
-    // Adding an element to the front and back of the deque
-    myDeque.push_front(0);
-    myDeque.push_back(6);
-
-    // Iterating through the deque using a range-based for loop
-    std::cout << "Deque Elements: ";
-    for (const auto& element : myDeque) {
-        std::cout << element << " ";
+    for(int i = 1; i <= 10; i++)
+    {
+        d.push_back(i);
     }
 
+    std::cout << "Size : " << d.size() << ", Capacity : " << d.capacity() << std::endl;
+
+    d.erase(d.begin() + 5, d.end());
+
+    auto i = d.cbegin();
+
+    for(auto & it: d)
+    {
+        std::cout << it << std::endl;
+    }
+
+    std::cout << "Size : " << d.size() << ", Capacity : " << d.capacity() << std::endl;
+
+    d.shrink_to_fit();
+
+    std::cout << "Size : " << d.size() << ", Capacity : " << d.capacity() << std::endl;
+    
     std::cout << std::endl;
 
     return 0;
